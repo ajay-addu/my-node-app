@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 2000
 
 # Start the application
-CMD ["node","App.js"]
+CMD ["node","app.js"]
