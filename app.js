@@ -9,6 +9,6 @@ app.get("/",(req,res)=>
 });
 app.listen(port,()=>
 {
-  console.log('app listeneing to the port ${port}');
+  console.log('app listeneing to the port 2000');
 }
 )
