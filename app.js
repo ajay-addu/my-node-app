@@ -1,11 +1,14 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 2025;
+const express=require('express');
+const app=express();
+const port=2000;
+app.get("/",(req,res)=>
 
-app.get('/', (req, res) => {
-    res.send('Hello, Docker!');
-});
+  {
+    res.send("<h1>hello world</h1>");
 
-app.listen(2025, '0.0.0.0', () => {
-    console.log('Server is running on port 2025');
 });
+app.listen(port,()=>
+{
+  console.log('app listeneing to the port ${port}');
+}
+)
